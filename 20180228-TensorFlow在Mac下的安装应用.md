@@ -47,4 +47,7 @@ Hello, TensorFlow!
 >>>
 ```
 
+### 安装好用的ide
+ide很多推荐pycharm的，我没用过，之前用eclipse和idea用惯了，又因为eclipse免费，所以ide选择了eclipse。安装eclipse之后pydev插件，配置python解释器即可新建python 项目，编写程序
+
 

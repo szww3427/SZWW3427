@@ -21,6 +21,30 @@ $ rm -rf ~/Library/Caches/Homebrew
 ```Bash
 brew install python
 ```
-3. 使用eaea s
-ea
+3. 使用easy_install安装pip
+使用brew install安装会报错，所以使用easy_install
+```Bash
+sudo easy_install pip
+```
+4. 在python中安装TensorFlow
+```Bash
+sudo pip install https://storage.googleapis.com/tensorflow/mac/tensorflow-0.5.0-py2-none-any.whl
+```
+
+### 运行TensorFlow
+```Python
+$ python
+
+>>> import tensorflow as tf
+>>> hello = tf.constant('Hello, TensorFlow!')
+>>> sess = tf.Session()
+>>> print sess.run(hello)
+Hello, TensorFlow!
+>>> a = tf.constant(10)
+>>> b = tf.constant(32)
+>>> print sess.run(a+b)
+42
+>>>
+```
+
 

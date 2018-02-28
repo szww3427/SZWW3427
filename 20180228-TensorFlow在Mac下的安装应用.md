@@ -7,7 +7,7 @@ TensorFlow在Mac下的安装应用
 ```Bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-homebrew的卸载也很简单：
+   homebrew的卸载也很简单：
 ```Bash
 $ cd `brew --prefix`
 $ rm -rf Cellar
@@ -17,4 +17,10 @@ $ rm -r Library/Homebrew Library/Aliases Library/Formula Library/Contributions
 $ rm -rf .git
 $ rm -rf ~/Library/Caches/Homebrew
 ```
+2. 使用homebrew安装python
+```Bash
+brew install python
+```
+3. 使用eaea s
+ea
 
